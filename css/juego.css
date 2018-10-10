@@ -1,0 +1,137 @@
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+ul {
+  padding-left: 5px;
+  list-style: none;
+}
+li {
+  padding:5px;
+  animation: fadein 5s;
+}
+li::before {
+  content: "• ";
+  color: rgb(76, 217, 183);
+}
+#imagenresultado{
+  width: 150px;
+  height: 150px;
+  clear:all;
+}
+img{
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding: 1px;
+}
+footer {
+  position: relative;
+  top: 20px;
+  background-color: #fcc439;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+.contenedorDeImagenes{
+    background-color: rgb(164, 164, 172);
+    width: 606px;
+    height: 606px;
+}
+.col-40 h1 {
+  font-size: 20px;
+  color: #E84A5F;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+}
+
+.col-60 {
+  background: #E84A5F;
+}
+
+
+#lista-instrucciones{
+  color: rgb(164, 164, 172);
+}
+
+#pieza9 img {
+ opacity: 0;
+}
+
+#titulo h1{
+  font-weight: medium;
+  letter-spacing: 2px;
+  border: solid 2px rgb(76, 217, 183);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+  color:rgb(76, 217, 183);
+}
+#instrucciones h2{
+  font-weight: medium;
+  padding-top: 3%;
+  color:rgb(62, 190, 186);
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#objetivo h2{
+  font-weight: medium;
+  padding-top: 3%;
+  color:rgb(62, 190, 186);
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+#ultimo-mov h2{
+  font-weight: medium;
+  padding-top: 4%;
+  color:rgb(62, 190, 186);
+  font-size: 16px;
+  letter-spacing: 2px;
+  float:left;
+}
+
+#flechabox{
+  position: absolute;
+  top: 560px;
+  border: solid 2px rgb(76, 217, 183);
+  background-color:white;
+  height: 90px;
+  width: 90px;
+}
+
+#flecha{
+  position: relative;
+  top:5px;
+  color:rgb(76, 217, 183);
+  text-align: center;
+  font-size: 60px;
+
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
